@@ -1,19 +1,18 @@
-<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Olympia Fitness</title>
-
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Olympia Fitness
+  </title>
   <!-- Tailwind CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1.2/dist/tailwind.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMWPv1s1I6q6McF3RVF2z6x1dLEB5/Nl4OJc3A4" crossorigin="anonymous">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
   <style>
-    body {
-      font-family: Arial, sans-serif;
+   body {
+      font-family: 'Roboto', sans-serif;
     }
     .hover-bg-orange:hover {
       background-color: #f97316;
@@ -22,286 +21,372 @@
     .text-orange-500 {
       color: #f97316;
     }
-    .fa{
-      padding:20px;
-      font-size: 30px;
-      width: 50px;
-      text-align: center;
-      text-decoration: none;
-    }
-    .fa:hover{
-      opacity: 0.7;
-    }
-    .fa-facebook{
-      background-color: #3b5998;
-      color:white;
-    }
   </style>
-</head>
-<body class="bg-gray-800 text-white antialiased">
-
+ </head>
+ <body class="bg-gray-800 text-white antialiased">
   <!-- Navbar -->
   <nav class="top-0 fixed z-50 w-full bg-gray-900 py-4 shadow-md">
-    <div class="container mx-auto flex justify-between items-center px-4">
-      <div class="flex items-center space-x-4">
-        <img src="logo.png" alt="Gym Logo" class="w-12 h-12">
-        <h5 class="text-lg font-bold text-white">Olympia Fitness</h5>
-        
-      </div>
-      <ul class="flex space-x-8">
-        <li><a href="index.html" class="text-gray-300 hover-bg-orange px-3 py-2 rounded">Home</a></li>
-        <li><a href="services.html" class="text-gray-300 hover-bg-orange px-3 py-2 rounded">Services</a></li>
-        <li><a href="contact.html" class="text-gray-300 hover-bg-orange px-3 py-2 rounded">Contact</a></li>
-      </ul>
+   <div class="container mx-auto flex justify-between items-center px-4">
+    <div class="flex items-center space-x-4">
+     <img alt="Gym Logo" class="w-12 h-12" height="50" src="logo.jpg" width="50"/>
+     <h5 class="text-lg font-bold text-white">
+      Olympia Fitness
+     </h5>
     </div>
+    <ul class="flex space-x-8">
+     <li>
+      <a class="text-gray-300 hover-bg-orange px-3 py-2 rounded" href="index.html">
+       Home
+      </a>
+     </li>
+     <li>
+      <a class="text-gray-300 hover-bg-orange px-3 py-2 rounded" href="services.html">
+       Services
+      </a>
+     </li>
+     <li>
+      <a class="text-gray-300 hover-bg-orange px-3 py-2 rounded" href="contact.html">
+       Contact
+      </a>
+     </li>
+    </ul>
+   </div>
   </nav>
-
-  
-
-  
-<!-- Hero Section -->
-<div class="relative pt-16 pb-32 flex content-center items-center justify-center" style="min-height: 95vh;">
-    <div class="absolute top-0 w-full h-full bg-top bg-cover" style="background-image: url('4883941.jpg');">
-      <span id="blackOverlay" class="w-full h-full absolute opacity-75 bg-black"></span>
-    </div>
-    <div class="container relative mx-auto" data-aos="fade-in">
-      <div class="items-center flex flex-wrap">
-        <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
-          <div>
-            <h1 class="text-white font-semibold text-5xl">Unleash Your <span class="text-orange-500">Power</span></h1>
-            <p class="mt-4 text-lg text-gray-300">Welcome to Olympia Fitness, your ultimate training destination.</p>
-            <a href="brounche.pdf" class="bg-transparent hover:bg-orange-500 text-orange-500 font-semibold hover:text-white p-4 border border-orange-500 hover:border-transparent rounded inline-block mt-5 cursor-pointer">Download Brochure</a>
-          </div>
-        </div>
+  <!-- Hero Section -->
+  <div class="relative pt-16 pb-32 flex content-center items-center justify-center" style="min-height: 95vh;">
+   <div class="absolute top-0 w-full h-full bg-top bg-cover">
+    <img alt="Hero background image of a gym with people working out" class="w-full h-full object-cover" height="1080" src="4883941.jpg" width="1920"/>
+    <span class="w-full h-full absolute opacity-75 bg-black" id="blackOverlay">
+    </span>
+   </div>
+   <div class="container relative mx-auto" data-aos="fade-in">
+    <div class="items-center flex flex-wrap">
+     <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
+      <div>
+       <h1 class="text-white font-semibold text-5xl">
+        Unleash Your
+        <span class="text-orange-500">
+         Power
+        </span>
+       </h1>
+       <p class="mt-4 text-lg text-gray-300">
+        Welcome to Olympia Fitness, your ultimate training destination.
+       </p>
+       <a class="bg-transparent hover:bg-orange-500 text-orange-500 font-semibold hover:text-white p-4 border border-orange-500 hover:border-transparent rounded inline-block mt-5 cursor-pointer" href="brounche.pdf">
+        Download Brochure
+       </a>
       </div>
+     </div>
     </div>
-    <div class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden" style="height: 70px;">
-      <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" version="1.1" viewBox="0 0 2560 100" x="0" y="0">
-        <polygon points="2560 0 2560 0 2560"></polygon>
-      </svg>
-    </div>
+   </div>
+   <div class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden" style="height: 70px;">
+    <svg class="absolute bottom-0 overflow-hidden" preserveaspectratio="none" version="1.1" viewbox="0 0 2560 100" x="0" xmlns="http://www.w3.org/2000/svg" y="0">
+     <polygon points="2560 0 2560 0 2560">
+     </polygon>
+    </svg>
+   </div>
   </div>
-  <section id="about" class="relative py-20 bg-blue text-white">
-    <div class="container mx-auto px-4">
-      <div class="items-center flex flex-wrap">
-        <div class="w-full md:w-4/12 ml-auto mr-auto px-4" data-aos="fade-right">
-          <img alt="Gym Image" class="max-w-full rounded-lg" src="play.png" />
-        </div>
-        <div class="w-full md:w-5/12 ml-auto mr-auto px-4" data-aos="fade-left">
-          <div class="md:pr-12">
-            <small class="text-orange-500">About our gym</small>
-            <h3 class="text-4xl uppercase font-bold">Safe Body Building</h3>
-            <p class="mt-4 text-lg leading-relaxed">We have the latest gym equipment, 5-inch foam floor padding, and professional trainers to ensure you train safely and effectively.</p>
-            <ul class="list-none mt-6">
-              <li class="py-2">
-                <div class="flex items-center">
-                  <span class="font-semibold inline-block py-3 mr-3 text-orange-500">
-                    <i class="fas fa-dumbbell fa-2x"></i>
-                  </span>
-                  <h4 class="text-xl">The latest & greatest gym equipment</h4>
-                </div>
-              </li>
-              <li class="py-2">
-                <div class="flex items-center">
-                  <span class="font-semibold inline-block py-3 mr-3 text-orange-500">
-                    <i class="fas fa-hard-hat fa-2x"></i>
-                  </span>
-                  <h4 class="text-xl">5-inch, quality foam floor padding</h4>
-                </div>
-              </li>
-              <li class="py-2">
-                <div class="flex items-center">
-                  <span class="font-semibold inline-block py-3 mr-3 text-orange-500">
-                    <i class="fas fa-users fa-2x"></i>
-                  </span>
-                  <h4 class="text-xl">3 professional trainers</h4>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
+  <!-- About Section -->
+  <section class="relative py-20 bg-blue text-white" id="about">
+   <div class="container mx-auto px-4">
+    <div class="items-center flex flex-wrap">
+     <div class="w-full md:w-4/12 ml-auto mr-auto px-4" data-aos="fade-right">
+      <img alt="Gym Image showing modern gym equipment" class="max-w-full rounded-lg" height="300" src="https://storage.googleapis.com/a1aa/image/xT4tYUYNk3VKzrba_eYWqdJMH8xN8-Fzt0CpsNRZpMc.jpg" width="400">
+      </img>
+     </div>
+     <div class="w-full md:w-5/12 ml-auto mr-auto px-4" data-aos="fade-left">
+      <div class="md:pr-12">
+       <small class="text-orange-500">
+        About our gym
+       </small>
+       <h3 class="text-4xl uppercase font-bold">
+        Safe Body Building
+       </h3>
+       <p class="mt-4 text-lg leading-relaxed">
+        We have the latest gym equipment, 5-inch foam floor padding, and professional trainers to ensure you train safely and effectively.
+       </p>
+       <ul class="list-none mt-6">
+        <li class="py-2">
+         <div class="flex items-center">
+          <span class="font-semibold inline-block py-3 mr-3 text-orange-500">
+           <i class="fas fa-dumbbell fa-2x">
+           </i>
+          </span>
+          <h4 class="text-xl">
+           The latest &amp; greatest gym equipment
+          </h4>
+         </div>
+        </li>
+        <li class="py-2">
+         <div class="flex items-center">
+          <span class="font-semibold inline-block py-3 mr-3 text-orange-500">
+           <i class="fas fa-hard-hat fa-2x">
+           </i>
+          </span>
+          <h4 class="text-xl">
+           5-inch, quality foam floor padding
+          </h4>
+         </div>
+        </li>
+        <li class="py-2">
+         <div class="flex items-center">
+          <span class="font-semibold inline-block py-3 mr-3 text-orange-500">
+           <i class="fas fa-users fa-2x">
+           </i>
+          </span>
+          <h4 class="text-xl">
+           3 professional trainers
+          </h4>
+         </div>
+        </li>
+       </ul>
       </div>
+     </div>
     </div>
+   </div>
   </section>
-
   <!-- Membership Packages Section -->
   <section class="py-16 bg-gray-900">
-    <div class="container mx-auto px-4 text-center">
-      <h2 class="text-4xl font-semibold uppercase">Our Memberships</h2>
-      <p class="text-lg mt-4 text-gray-300">Choose the best plan for your fitness goals.</p>
-      <div class="flex flex-wrap mt-10 justify-center">
-        <div class="w-full md:w-4/12 px-4 mb-6">
-          <div class="bg-gray-800 rounded-lg shadow-lg p-6">
-            <h3 class="text-xl font-semibold">Basic</h3>
-            <p class="mt-4 text-gray-300">Access to gym equipment and weights.</p>
-            <p class="text-3xl font-bold mt-2">&#8377 2000/month</p>
-            <a href="#" class="block mt-6 bg-orange-500 hover:bg-orange-700 text-white py-2 rounded">Get Started</a>
-          </div>
-        </div>
-        <div class="w-full md:w-4/12 px-4 mb-6">
-          <div class="bg-gray-800 rounded-lg shadow-lg p-6">
-            <h3 class="text-xl font-semibold">Standard</h3>
-            <p class="mt-4 text-gray-300">Includes access to group classes and cardio zone.</p>
-            <p class="text-3xl font-bold mt-2">&#8377 3500/month</p>
-            <a href="#" class="block mt-6 bg-orange-500 hover:bg-orange-700 text-white py-2 rounded">Get Started</a>
-          </div>
-        </div>
-        <div class="w-full md:w-4/12 px-4 mb-6">
-          <div class="bg-gray-800 rounded-lg shadow-lg p-6">
-            <h3 class="text-xl font-semibold">Premium</h3>
-            <p class="mt-4 text-gray-300">All-inclusive access to facilities and personal trainer sessions.</p>
-            <p class="text-3xl font-bold mt-2">&#8377 5000/month</p>
-            <a href="#" class="block mt-6 bg-orange-500 hover:bg-orange-700 text-white py-2 rounded">Get Started</a>
-          </div>
-        </div>
+   <div class="container mx-auto px-4 text-center">
+    <h2 class="text-4xl font-semibold uppercase">
+     Our Memberships
+    </h2>
+    <p class="text-lg mt-4 text-gray-300">
+     Choose the best plan for your fitness goals.
+    </p>
+    <div class="flex flex-wrap mt-10 justify-center">
+     <div class="w-full md:w-4/12 px-4 mb-6">
+      <div class="bg-gray-800 rounded-lg shadow-lg p-6">
+       <h3 class="text-xl font-semibold">
+        Basic
+       </h3>
+       <p class="mt-4 text-gray-300">
+        Access to gym equipment and weights.
+       </p>
+       <p class="text-3xl font-bold mt-2">
+        ₹ 2000/month
+       </p>
+       <a class="block mt-6 bg-orange-500 hover:bg-orange-700 text-white py-2 rounded" href="#">
+        Get Started
+       </a>
       </div>
+     </div>
+     <div class="w-full md:w-4/12 px-4 mb-6">
+      <div class="bg-gray-800 rounded-lg shadow-lg p-6">
+       <h3 class="text-xl font-semibold">
+        Standard
+       </h3>
+       <p class="mt-4 text-gray-300">
+        Includes access to group classes and cardio zone.
+       </p>
+       <p class="text-3xl font-bold mt-2">
+        ₹ 3500/month
+       </p>
+       <a class="block mt-6 bg-orange-500 hover:bg-orange-700 text-white py-2 rounded" href="#">
+        Get Started
+       </a>
+      </div>
+     </div>
+     <div class="w-full md:w-4/12 px-4 mb-6">
+      <div class="bg-gray-800 rounded-lg shadow-lg p-6">
+       <h3 class="text-xl font-semibold">
+        Premium
+       </h3>
+       <p class="mt-4 text-gray-300">
+        All-inclusive access to facilities and personal trainer sessions.
+       </p>
+       <p class="text-3xl font-bold mt-2">
+        ₹ 5000/month
+       </p>
+       <a class="block mt-6 bg-orange-500 hover:bg-orange-700 text-white py-2 rounded" href="#">
+        Get Started
+       </a>
+      </div>
+     </div>
     </div>
+   </div>
   </section>
-
-  
+  <!-- Trainers Section -->
   <section class="pt-20 pb-48">
-    <div class="container mx-auto px-4">
-      <div class="flex flex-wrap justify-center text-center mb-24">
-        <div class="w-full lg:w-6/12 px-4">
-          <h2 class="text-4xl font-semibold uppercase">Meet Our Trainers</h2>
-          <p class="text-lg leading-relaxed m-4">Our trainers are here to dedicate the time and effort you need to get in the best shape of your life.</p>
-        </div>
-      </div>
-      <div class="flex flex-wrap">
-        <div class="w-full md:w-4/12 lg:mb-0 mb-12 px-4" data-aos="flip-right">
-          <div class="px-6">
-            <img alt="Trainer 1" 
-            " class="shadow-lg rounded-full max-w-full mx-auto" style="max-width: 150px;"/>
-            <div class="pt-6 text-center">
-              <h5 class="text-xl font-bold">Suraj K</h5>
-              <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">Strength Coach</p>
-              <div class="mt-6">
-                <button class="bg-orange-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1" type="button">
-                  <i class="fab fa-twitter"></i>
-                </button>
-                <button class="bg-orange-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1" type="button">
-                  <i class="fab fa-instagram"></i>
-                </button>
-                <button class="bg-orange-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1" type="button">
-                <i class="fab fa-facebook-f"></i>
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="w-full md:w-4/12 lg:mb-0 mb-12 px-4" data-aos="flip-right">
-          <div class="px-6">
-            <img alt="Trainer 2" src="https://images.unsplash.com/photo-1579758629933-65bbf50709aa?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
-            class="shadow-lg rounded-full max-w-full mx-auto" style="max-width: 150px;"/>
-            <div class="pt-6 text-center">
-              <h5 class="text-xl font-bold">Rajat P</h5>
-              <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">Cardio Specialist</p>
-              <div class="mt-6">
-                <button class="bg-orange-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1" type="button">
-                  <i class="fab fa-twitter"></i>
-                </button>
-                <button class="bg-orange-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1" type="button">
-                  <i class="fab fa-instagram"></i>
-                </button>
-                <button class="bg-orange-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1" type="button">
-                  <i class="fab fa-facebook-f"></i>
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="w-full md:w-4/12 lg:mb-0 mb-12 px-4" data-aos="flip-right">
-          <div class="px-6">
-            <img alt="Trainer 3" src="https://images.unsplash.com/photo-1526401281622-2e89da3f13e6?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
-            class="shadow-lg rounded-full max-w-full mx-auto" style="max-width: 150px;"/>
-            <div class="pt-6 text-center">
-              <h5 class="text-xl font-bold">Varsha A</h5>
-              <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">Women Trainer</p>
-              <div class="mt-6">
-                <button class="bg-orange-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1" type="button">
-                  <i class="fab fa-twitter"></i>
-                </button>
-                <button class="bg-orange-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1" type="button">
-                  <i class="fab fa-instagram"></i>
-                </button>
-                <button class="bg-orange-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1" type="button">
-                  <i class="fab fa-facebook-f"></i>
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+   <div class="container mx-auto px-4">
+    <div class="flex flex-wrap justify-center text-center mb-24">
+     <div class="w-full lg:w-6/12 px-4">
+      <h2 class="text-4xl font-semibold uppercase">
+       Meet Our Trainers
+      </h2>
+      <p class="text-lg leading-relaxed m-4">
+       Our trainers are here to dedicate the time and effort you need to get in the best shape of your life.
+      </p>
+     </div>
     </div>
+    <div class="flex flex-wrap">
+     <div class="w-full md:w-4/12 lg:mb-0 mb-12 px-4" data-aos="flip-right">
+      <div class="px-6">
+       <img alt="Trainer 1, a professional strength coach" class="shadow-lg rounded-full max-w-full mx-auto" height="150" src="https://storage.googleapis.com/a1aa/image/WsijSWyZ4VxUCQxWBJ9jHHGG8sSemJZOXkEfAq2e8YM.jpg" style="max-width: 150px;" width="150"/>
+       <div class="pt-6 text-center">
+        <h5 class="text-xl font-bold">
+         Suraj K
+        </h5>
+        <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+         Strength Coach
+        </p>
+        <div class="mt-6">
+         <button class="bg-orange-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1" type="button">
+          <i class="fab fa-twitter">
+          </i>
+         </button>
+         <button class="bg-orange-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1" type="button">
+          <i class="fab fa-instagram">
+          </i>
+         </button>
+         <button class="bg-orange-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1" type="button">
+          <i class="fab fa-facebook-f">
+          </i>
+         </button>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="w-full md:w-4/12 lg:mb-0 mb-12 px-4" data-aos="flip-right">
+      <div class="px-6">
+       <img alt="Trainer 2, a professional cardio specialist" class="shadow-lg rounded-full max-w-full mx-auto" height="150" src="https://storage.googleapis.com/a1aa/image/8qhgCTY4GPYa3p0jzhBjmMRqw3pxcxK7Re5hcYynzt0.jpg" style="max-width: 150px;" width="150"/>
+       <div class="pt-6 text-center">
+        <h5 class="text-xl font-bold">
+         Rajat P
+        </h5>
+        <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+         Cardio Specialist
+        </p>
+        <div class="mt-6">
+         <button class="bg-orange-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1" type="button">
+          <i class="fab fa-twitter">
+          </i>
+         </button>
+         <button class="bg-orange-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1" type="button">
+          <i class="fab fa-instagram">
+          </i>
+         </button>
+         <button class="bg-orange-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1" type="button">
+          <i class="fab fa-facebook-f">
+          </i>
+         </button>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="w-full md:w-4/12 lg:mb-0 mb-12 px-4" data-aos="flip-right">
+      <div class="px-6">
+       <img alt="Trainer 3, a professional women trainer" class="shadow-lg rounded-full max-w-full mx-auto" height="150" src="https://storage.googleapis.com/a1aa/image/pC5uJ0v5Mkat72GUl3dIozMwBQo9cww-rIZYuH1Ze7U.jpg" style="max-width: 150px;" width="150"/>
+       <div class="pt-6 text-center">
+        <h5 class="text-xl font-bold">
+         Varsha A
+        </h5>
+        <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+         Women Trainer
+        </p>
+        <div class="mt-6">
+         <button class="bg-orange-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1" type="button">
+          <i class="fab fa-twitter">
+          </i>
+         </button>
+         <button class="bg-orange-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1" type="button">
+          <i class="fab fa-instagram">
+          </i>
+         </button>
+         <button class="bg-orange-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1" type="button">
+          <i class="fab fa-facebook-f">
+          </i>
+         </button>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
   </section>
-</main>
-   <!-- Footer -->
-   <footer class="relative bg-gray-900 text-white pt-8 pb-6">
-    <div class="container mx-auto px-4">
-      <div class="flex flex-wrap text-center lg:text-left">
-        <div class="w-full lg:w-6/12 px-4">
-          <h4 class="text-3xl font-semibold">Let's keep in touch!</h4>
-          <h5 class="text-lg mt-0 mb-2 text-gray-400">Find us on any of these platforms.</h5>
-          <div class="mt-6 lg:mb-0 mb-6">
-            <button class="bg-orange-500 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1" type="button">
-              <i class="fab fa-twitter"></i>
-            </button>
-            <button class="bg-orange-500 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1" type="button">
-              <i class="fab fa-facebook-f"></i>
-            </button>
-            <button class="bg-orange-500 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1" type="button">
-              <i class="fab fa-dribbble"></i>
-            </button>
-            <button class="bg-orange-500 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1" type="button">
-             <a href="https://www.facebook.com" class="fa fa-facebook"></a>
-            </button>
-          </div>
-        </div>
-        <div class="w-full lg:w-6/12 px-4">
-          <div class="flex flex-wrap items-top mb-6">
-            <div class="w-full lg:w-4/12 px-4 ml-auto">
-              <span class="block uppercase text-gray-400 text-sm font-semibold mb-2">Useful Links</span>
-              <ul class="list-unstyled">
-                <li>
-                  <a href="#" class="text-gray-300 hover:text-gray-100 font-semibold block pb-2 text-sm">Blog</a>
-                </li>
-               
-                <li>
-                  <a href="#" class="text-gray-300 hover:text-gray-100 font-semibold block pb-2 text-sm">Free Products</a>
-                </li>
-              </ul>
-            </div>
-            <div class="w-full lg:w-4/12 px-4">
-              <span class="block uppercase text-gray-400 text-sm font-semibold mb-2">Other Resources</span>
-              <ul class="list-unstyled">
-                <li>
-                  <a href="#" class="text-gray-300 hover:text-gray-100 font-semibold block pb-2 text-sm">Terms &amp; Conditions</a>
-                </li>
-                <li>
-                  <a href="#" class="text-gray-300 hover:text-gray-100 font-semibold block pb-2 text-sm">Privacy Policy</a>
-                </li>
-                
-              </ul>
-            </div>
-          </div>
-        </div>
+  <!-- Footer -->
+  <footer class="relative bg-gray-900 text-white pt-8 pb-6">
+   <div class="container mx-auto px-4">
+    <div class="flex flex-wrap text-center lg:text-left">
+     <div class="w-full lg:w-6/12 px-4">
+      <h4 class="text-3xl font-semibold">
+       Let's keep in touch!
+      </h4>
+      <h5 class="text-lg mt-0 mb-2 text-gray-400">
+       Find us on any of these platforms.
+      </h5>
+      <div class="mt-6 lg:mb-0 mb-6">
+       <button class="bg-orange-500 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1" type="button">
+        <i class="fab fa-twitter">
+        </i>
+       </button>
+       <button class="bg-orange-500 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1" type="button">
+        <i class="fab fa-facebook-f">
+        </i>
+       </button>
+       <button class="bg-orange-500 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1" type="button">
+        <i class="fab fa-dribbble">
+        </i>
+       </button>
+       <button class="bg-orange-500 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1" type="button">
+        <i class="fab fa-instagram">
+        </i>
+       </button>
       </div>
-      <hr class="my-6 border-gray-400" />
-      <div class="flex flex-wrap items-center md:justify-between justify-center">
-        <div class="w-full md:w-4/12 px-4 mx-auto text-center">
-          <div class="text-sm text-gray-300 font-semibold py-1">
-            © 2024 Olympia Fitness. All rights reserved.
-          </div>
-        </div>
+     </div>
+     <div class="w-full lg:w-6/12 px-4">
+      <div class="flex flex-wrap items-top mb-6">
+       <div class="w-full lg:w-4/12 px-4 ml-auto">
+        <span class="block uppercase text-gray-400 text-sm font-semibold mb-2">
+         Useful Links
+        </span>
+        <ul class="list-unstyled">
+         <li>
+          <a class="text-gray-300 hover:text-gray-100 font-semibold block pb-2 text-sm" href="#">
+           Blog
+          </a>
+         </li>
+         <li>
+          <a class="text-gray-300 hover:text-gray-100 font-semibold block pb-2 text-sm" href="#">
+           Free Products
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="w-full lg:w-4/12 px-4">
+        <span class="block uppercase text-gray-400 text-sm font-semibold mb-2">
+         Other Resources
+        </span>
+        <ul class="list-unstyled">
+         <li>
+          <a class="text-gray-300 hover:text-gray-100 font-semibold block pb-2 text-sm" href="#">
+           Terms &amp; Conditions
+          </a>
+         </li>
+         <li>
+          <a class="text-gray-300 hover:text-gray-100 font-semibold block pb-2 text-sm" href="#">
+           Privacy Policy
+          </a>
+         </li>
+        </ul>
+       </div>
       </div>
+     </div>
     </div>
+    <hr class="my-6 border-gray-400"/>
+    <div class="flex flex-wrap items-center md:justify-between justify-center">
+     <div class="w-full md:w-4/12 px-4 mx-auto text-center">
+      <div class="text-sm text-gray-300 font-semibold py-1">
+       © 2024 Olympia Fitness. All rights reserved.
+      </div>
+     </div>
+    </div>
+   </div>
   </footer>
-
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init();
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
   </script>
-</body>
+  <script>
+   AOS.init();
+  </script>
+ </body>
 </html>
